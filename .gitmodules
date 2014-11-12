@@ -1,0 +1,156 @@
+[submodule "boost/smart_ptr"]
+	path = boost/smart_ptr
+	url = git@github.com:boostorg/smart_ptr.git
+[submodule "boost/config"]
+	path = boost/config
+	url = git@github.com:boostorg/config.git
+[submodule "boost/assert"]
+	path = boost/assert
+	url = git@github.com:boostorg/assert.git
+[submodule "boost/utility"]
+	path = boost/utility
+	url = git@github.com:boostorg/utility.git
+[submodule "boost/exception"]
+	path = boost/exception
+	url = git@github.com:boostorg/exception.git
+[submodule "fost/base"]
+	path = fost/base
+	url = git@github.com:KayEss/fost-base.git
+[submodule "boost/preprocessor"]
+	path = boost/preprocessor
+	url = git@github.com:boostorg/preprocessor.git
+[submodule "boost/type_traits"]
+	path = boost/type_traits
+	url = git@github.com:boostorg/type_traits.git
+[submodule "boost/mpl"]
+	path = boost/mpl
+	url = git@github.com:boostorg/mpl.git
+[submodule "boost/static_assert"]
+	path = boost/static_assert
+	url = git@github.com:boostorg/static_assert.git
+[submodule "boost/align"]
+	path = boost/align
+	url = git@github.com:boostorg/align.git
+[submodule "boost/integer"]
+	path = boost/integer
+	url = git@github.com:boostorg/integer.git
+[submodule "boost/tuple"]
+	path = boost/tuple
+	url = git@github.com:boostorg/tuple.git
+[submodule "boost/function"]
+	path = boost/function
+	url = git@github.com:boostorg/function.git
+[submodule "boost/bind"]
+	path = boost/bind
+	url = git@github.com:boostorg/bind.git
+[submodule "boost/detail"]
+	path = boost/detail
+	url = git@github.com:boostorg/detail.git
+[submodule "boost/typeof"]
+	path = boost/typeof
+	url = git@github.com:boostorg/typeof.git
+[submodule "boost/variant"]
+	path = boost/variant
+	url = git@github.com:boostorg/variant.git
+[submodule "boost/move"]
+	path = boost/move
+	url = git@github.com:boostorg/move.git
+[submodule "boost/functional"]
+	path = boost/functional
+	url = git@github.com:boostorg/functional.git
+[submodule "boost/math"]
+	path = boost/math
+	url = git@github.com:boostorg/math.git
+[submodule "boost/iterator"]
+	path = boost/iterator
+	url = git@github.com:boostorg/iterator.git
+[submodule "boost/array"]
+	path = boost/array
+	url = git@github.com:boostorg/array.git
+[submodule "boost/range"]
+	path = boost/range
+	url = git@github.com:boostorg/range.git
+[submodule "boost/concept_check"]
+	path = boost/concept_check
+	url = git@github.com:boostorg/concept_check.git
+[submodule "boost/thread"]
+	path = boost/thread
+	url = git@github.com:boostorg/thread.git
+[submodule "boost/atomic"]
+	path = boost/atomic
+	url = git@github.com:boostorg/atomic.git
+[submodule "boost/spirit"]
+	path = boost/spirit
+	url = git@github.com:boostorg/spirit.git
+[submodule "boost/optional"]
+	path = boost/optional
+	url = git@github.com:boostorg/optional.git
+[submodule "boost/date_time"]
+	path = boost/date_time
+	url = git@github.com:boostorg/date_time.git
+[submodule "boost/chrono"]
+	path = boost/chrono
+	url = git@github.com:boostorg/chrono.git
+[submodule "boost/ratio"]
+	path = boost/ratio
+	url = git@github.com:boostorg/ratio.git
+[submodule "boost/io"]
+	path = boost/io
+	url = git@github.com:boostorg/io.git
+[submodule "boost/filesystem"]
+	path = boost/filesystem
+	url = git@github.com:boostorg/filesystem.git
+[submodule "boost/algorithm"]
+	path = boost/algorithm
+	url = git@github.com:boostorg/algorithm.git
+[submodule "boost/numeric_conversion"]
+	path = boost/numeric_conversion
+	url = git@github.com:boostorg/numeric_conversion.git
+[submodule "boost/conversion"]
+	path = boost/conversion
+	url = git@github.com:boostorg/conversion.git
+[submodule "boost/predef"]
+	path = boost/predef
+	url = git@github.com:boostorg/predef.git
+[submodule "boost/container"]
+	path = boost/container
+	url = git@github.com:boostorg/container.git
+[submodule "boost/tokenizer"]
+	path = boost/tokenizer
+	url = git@github.com:boostorg/tokenizer.git
+[submodule "boost/lambda"]
+	path = boost/lambda
+	url = git@github.com:boostorg/lambda.git
+[submodule "boost/uuid"]
+	path = boost/uuid
+	url = git@github.com:boostorg/uuid.git
+[submodule "boost/random"]
+	path = boost/random
+	url = git@github.com:boostorg/random.git
+[submodule "fost/web"]
+	path = fost/web
+	url = git@github.com:KayEss/fost-web.git
+[submodule "fost/internet"]
+	path = fost/internet
+	url = git@github.com:KayEss/fost-internet.git
+[submodule "boost/asio"]
+	path = boost/asio
+	url = git@github.com:boostorg/asio.git
+[submodule "boost/regex"]
+	path = boost/regex
+	url = git@github.com:boostorg/regex.git
+[submodule "openssl"]
+	path = openssl
+	url = git@github.com:KayEss/android-external-openssl.git
+[submodule "fost/orm"]
+	path = fost/orm
+	url = git@github.com:KayEss/fost-orm.git
+[submodule "crypto"]
+	path = crypto
+	url = git@github.com:KayEss/fost-crypto.git
+[submodule "fost/beanbag"]
+	path = fost/beanbag
+	url = git@github.com:KayEss/fost-beanbag.git
+[submodule "fost/aws"]
+	path = fost/aws
+	url = git@github.com:KayEss/fost-aws.git
