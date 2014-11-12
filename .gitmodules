@@ -154,3 +154,15 @@
 [submodule "fost/aws"]
 	path = fost/aws
 	url = git@github.com:KayEss/fost-aws.git
+[submodule "boost/throw_exception"]
+	path = boost/throw_exception
+	url = git@github.com:boostorg/throw_exception.git
+[submodule "boost/core"]
+	path = boost/core
+	url = git@github.com:boostorg/core.git
+[submodule "boost/lexical_cast"]
+	path = boost/lexical_cast
+	url = git@github.com:boostorg/lexical_cast.git
+[submodule "boost/system"]
+	path = boost/system
+	url = git@github.com:boostorg/system.git

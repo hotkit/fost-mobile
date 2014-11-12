@@ -12,6 +12,7 @@ LOCAL_C_INCLUDES += \
     $(TOP_PATH)/boost/assert/include \
     $(TOP_PATH)/boost/atomic/include \
     $(TOP_PATH)/boost/bind/include \
+    $(TOP_PATH)/boost/core/include \
     $(TOP_PATH)/boost/chrono/include \
     $(TOP_PATH)/boost/concept_check/include \
     $(TOP_PATH)/boost/config/include \
@@ -27,6 +28,7 @@ LOCAL_C_INCLUDES += \
     $(TOP_PATH)/boost/io/include \
     $(TOP_PATH)/boost/iterator/include \
     $(TOP_PATH)/boost/lambda/include \
+    $(TOP_PATH)/boost/lexical_cast/include \
     $(TOP_PATH)/boost/math/include \
     $(TOP_PATH)/boost/move/include \
     $(TOP_PATH)/boost/mpl/include \
@@ -43,6 +45,7 @@ LOCAL_C_INCLUDES += \
     $(TOP_PATH)/boost/static_assert/include \
     $(TOP_PATH)/boost/system/include \
     $(TOP_PATH)/boost/thread/include \
+    $(TOP_PATH)/boost/throw_exception/include \
     $(TOP_PATH)/boost/tokenizer/include \
     $(TOP_PATH)/boost/tuple/include \
     $(TOP_PATH)/boost/type_traits/include \
@@ -57,5 +60,5 @@ LOCAL_C_INCLUDES += \
     $(TOP_PATH)/fost/internet/Cpp/include \
     $(TOP_PATH)/fost/orm/Cpp/include \
     $(TOP_PATH)/fost/web/Cpp/include \
-    $(TOP_PATH)/openssl/include \
+    $(TOP_PATH)/openssl/include
 
