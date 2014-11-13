@@ -11,6 +11,7 @@ include $(TOP_PATH)/fost-crypto.mk
 include $(TOP_PATH)/fost-datetime.mk
 include $(TOP_PATH)/fost-inet.mk
 include $(TOP_PATH)/fost-jsondb.mk
+include $(TOP_PATH)/fost-rproxy.mk
 include $(TOP_PATH)/fost-s3.mk
 include $(TOP_PATH)/fost-schema.mk
 include $(TOP_PATH)/fost-urlhandler.mk
