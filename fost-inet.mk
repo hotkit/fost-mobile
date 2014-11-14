@@ -20,8 +20,9 @@ LOCAL_SHARED_LIBRARIES := \
     boost-filesystem \
     boost-system \
     boost-thread \
-    crypto \
+    crypto-openssl \
     fost-core \
-    ssl
+    fost-crypto \
+    ssl-openssl
 
 include $(BUILD_SHARED_LIBRARY)
