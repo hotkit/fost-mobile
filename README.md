@@ -8,6 +8,15 @@ Add this repository as a git submodule in your Android project:
 
     git submodule add git@github.com:KayEss/fost-android.git jni/fost-android
 
+## Boost version ##
+
+The version of Boost is 1.56. To change it do something like this:
+
+    git submodule foreach "git checkout boost-1.55.0 || echo Not boost"
+
+As the libraries are refactored you may find that different Boost libraries are needed though.
+
+
 # Application.mk #
 
 A sample application configuration:
