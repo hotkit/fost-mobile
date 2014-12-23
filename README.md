@@ -1,4 +1,4 @@
-# fost-android #
+# fost-android-ndk #
 
 Android build configuration for NDK with Boost and Fost libraries.
 
@@ -8,7 +8,7 @@ Add this repository as a git submodule in your Android project:
 
     git submodule add git@github.com:KayEss/fost-android.git jni/fost-android
 
-# Application.mki #
+# Application.mk #
 
 A sample application configuration:
 
