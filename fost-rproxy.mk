@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)/fost/web/Cpp/fost-rproxy
 include $(CLEAR_VARS)
 
-include $(TOP_PATH)/opts.mk
+include $(FANDK)/opts.mk
 
 LOCAL_MODULE := fost-rproxy
 
