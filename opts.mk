@@ -1,7 +1,7 @@
 
 LOCAL_CFLAGS += \
     -DBOOST_VERSION_MAJOR=56 \
-    -std=c++14 \
+    -std=c++11 \
     -Wno-deprecated-declarations
 
 LOCAL_ARM_MODE := arm
