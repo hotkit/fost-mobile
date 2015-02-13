@@ -11,6 +11,7 @@ LOCAL_SRC_FILES := \
     databases.cpp
 
 LOCAL_SHARED_LIBRARIES := \
+    boost-filesystem \
     boost-system \
     fost-core \
     fost-crypto \
