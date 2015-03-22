@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)/fost/orm/Cpp/fost-schema
 include $(CLEAR_VARS)
 
-include $(TOP_PATH)/opts.mk
+include $(FANDK)/opts.mk
 
 LOCAL_MODULE := fost-schema
 
