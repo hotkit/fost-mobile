@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)/fost/base/Cpp/fost-datetime
 include $(CLEAR_VARS)
 
-include $(TOP_PATH)/opts.mk
+include $(FANDK)/opts.mk
 
 LOCAL_MODULE := fost-datetime
 

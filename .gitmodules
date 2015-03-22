@@ -120,7 +120,7 @@
 	url = git@github.com:boostorg/tokenizer.git
 [submodule "boost/lambda"]
 	path = boost/lambda
-	url = git@github.com:boostorg/lambda.git
+	url = git@github.com:KayEss/lambda.git
 [submodule "boost/uuid"]
 	path = boost/uuid
 	url = git@github.com:boostorg/uuid.git
