@@ -5,7 +5,9 @@ include $(FANDK)/opts.mk
 
 LOCAL_MODULE := cryptopp
 
-LOCAL_CFLAGS += -DCRYPTOPP_DISABLE_ASM
+LOCAL_CFLAGS += \
+	-DCRYPTOPP_DISABLE_ASM \
+	-DCRYPTOPP_DISABLE_SSSE3
 
 LOCAL_SRC_FILES := \
     algebra.cpp \
@@ -30,7 +32,6 @@ LOCAL_SRC_FILES := \
     files.cpp \
     filters.cpp \
     fips140.cpp \
-    fipstest.cpp \
     gcm.cpp \
     gf2n.cpp \
     gfpcrypt.cpp \
