@@ -166,3 +166,6 @@
 [submodule "boost/system"]
 	path = boost/system
 	url = git@github.com:boostorg/system.git
+[submodule "fost/threading"]
+	path = fost/threading
+	url = git@github.com:KayEss/f5-threading.git

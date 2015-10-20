@@ -61,6 +61,7 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/fost/beanbag/include \
     $(FANDK)/fost/internet/Cpp/include \
     $(FANDK)/fost/orm/Cpp/include \
+    $(FANDK)/fost/threading/include \
     $(FANDK)/fost/web/Cpp/include \
     $(FANDK)/openssl/include
 
