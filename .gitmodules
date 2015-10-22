@@ -169,3 +169,6 @@
 [submodule "fost/threading"]
 	path = fost/threading
 	url = git@github.com:KayEss/f5-threading.git
+[submodule "boost/type_index"]
+	path = boost/type_index
+	url = git@github.com:boostorg/type_index.git

@@ -50,6 +50,7 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/boost/throw_exception/include \
     $(FANDK)/boost/tokenizer/include \
     $(FANDK)/boost/tuple/include \
+    $(FANDK)/boost/type_index/include \
     $(FANDK)/boost/type_traits/include \
     $(FANDK)/boost/typeof/include \
     $(FANDK)/boost/utility/include \
