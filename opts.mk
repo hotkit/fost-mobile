@@ -1,6 +1,7 @@
 
 LOCAL_CFLAGS += \
     -DBOOST_VERSION_MAJOR=56 \
+    -DFOST_NO_STD_EXCEPTION_PTR \
     -std=c++14 \
     -Wno-deprecated-declarations
 
