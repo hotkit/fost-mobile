@@ -10,8 +10,10 @@ LOCAL_SRC_FILES := \
     cache.db.cpp \
     cache.hash.cpp \
     config-view.cpp \
+    fost-rproxy.cpp \
     proxy-view.cpp \
     stats.cpp
+
 LOCAL_SHARED_LIBRARIES := \
     boost-filesystem \
     boost-system \
