@@ -1,19 +1,16 @@
-LOCAL_PATH := $(call my-dir)/fost/beanbag/beanbag-views
+LOCAL_PATH := $(call my-dir)/fost/beanbag/beanbag
 include $(CLEAR_VARS)
 
 include $(FANDK)/opts.mk
 
-LOCAL_MODULE := fost-beanbag-views
+LOCAL_MODULE := fost-beanbag
 
 LOCAL_SRC_FILES := \
-    beanbag-raw.cpp \
-    beanbag-structured.cpp \
-    beanbag-views.cpp
+    databases.cpp
 
 LOCAL_SHARED_LIBRARIES := \
     boost-filesystem \
     boost-system \
-    fost-beanbag \
     fost-core \
     fost-crypto \
     fost-inet \
