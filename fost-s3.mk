@@ -6,6 +6,7 @@ include $(FANDK)/opts.mk
 LOCAL_MODULE := fost-s3
 
 LOCAL_SRC_FILES := \
+    fost-aws.cpp \
     s3.cpp \
     s3authen.cpp
 
