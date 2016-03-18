@@ -1,6 +1,7 @@
 
-LOCAL_CFLAGS += \
+LOCAL_CXXFLAGS += \
     -DBOOST_VERSION_MAJOR=56 \
+    -DFOST_NO_STD_EXCEPTION_PTR \
     -std=c++14 \
     -Wno-deprecated-declarations
 
@@ -50,6 +51,7 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/boost/throw_exception/include \
     $(FANDK)/boost/tokenizer/include \
     $(FANDK)/boost/tuple/include \
+    $(FANDK)/boost/type_index/include \
     $(FANDK)/boost/type_traits/include \
     $(FANDK)/boost/typeof/include \
     $(FANDK)/boost/utility/include \
@@ -61,6 +63,7 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/fost/beanbag/include \
     $(FANDK)/fost/internet/Cpp/include \
     $(FANDK)/fost/orm/Cpp/include \
+    $(FANDK)/fost/threading/include \
     $(FANDK)/fost/web/Cpp/include \
     $(FANDK)/openssl/include
 

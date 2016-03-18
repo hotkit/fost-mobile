@@ -8,6 +8,7 @@ LOCAL_MODULE := fost-core
 LOCAL_SRC_FILES := \
         atexit.cpp \
         coerce.cpp \
+        counter.cpp \
         date.cpp \
         dynlib.cpp \
         exception.cpp \
@@ -22,6 +23,7 @@ LOCAL_SRC_FILES := \
         log-impl.cpp \
         log-scoped.cpp \
         meter.cpp \
+        module.cpp \
         parsers.cpp \
         pool.cpp \
         progress.cpp \

@@ -7,6 +7,7 @@ LOCAL_MODULE := fost-inet
 
 LOCAL_SRC_FILES := \
     connection.cpp \
+    fost-inet.cpp \
     headers.cpp \
     host.cpp \
     http.server.cpp \

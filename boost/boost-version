@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -ex
+
+git submodule foreach "git fetch && git checkout $1 || echo Not found"
