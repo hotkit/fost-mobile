@@ -7,6 +7,7 @@ LOCAL_MODULE := fost-urlhandler
 
 LOCAL_SRC_FILES := \
     config.cpp \
+    fost-urlhandler.cpp \
     middleware.template.cpp \
     mime-types.cpp \
     responses.301.cpp \

@@ -5,6 +5,7 @@ include $(FANDK)/boost-filesystem.mk
 include $(FANDK)/boost-thread.mk
 include $(FANDK)/boost-system.mk
 include $(FANDK)/crypto++.mk
+include $(FANDK)/fost-beanbag.mk
 include $(FANDK)/fost-beanbag-views.mk
 include $(FANDK)/fost-core.mk
 include $(FANDK)/fost-crypto.mk

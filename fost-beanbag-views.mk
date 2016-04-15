@@ -8,11 +8,12 @@ LOCAL_MODULE := fost-beanbag-views
 LOCAL_SRC_FILES := \
     beanbag-raw.cpp \
     beanbag-structured.cpp \
-    databases.cpp
+    beanbag-views.cpp
 
 LOCAL_SHARED_LIBRARIES := \
     boost-filesystem \
     boost-system \
+    fost-beanbag \
     fost-core \
     fost-crypto \
     fost-inet \
