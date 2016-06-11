@@ -172,3 +172,6 @@
 [submodule "boost/type_index"]
 	path = boost/type_index
 	url = git@github.com:boostorg/type_index.git
+[submodule "fost/cord"]
+	path = fost/cord
+	url = git@github.com:KayEss/f5-cord.git

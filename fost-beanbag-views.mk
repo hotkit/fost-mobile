@@ -8,7 +8,13 @@ LOCAL_MODULE := fost-beanbag-views
 LOCAL_SRC_FILES := \
     beanbag-raw.cpp \
     beanbag-structured.cpp \
-    beanbag-views.cpp
+    beanbag-views.cpp \
+    patch.cpp \
+    patch.op-add.cpp \
+    patch.op-created.cpp \
+    patch.op-now.cpp \
+    patch.op-remove.cpp \
+    patch.op-set.cpp
 
 LOCAL_SHARED_LIBRARIES := \
     boost-filesystem \
