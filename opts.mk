@@ -61,6 +61,7 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/fost/aws/Cpp/include \
     $(FANDK)/fost/base/Cpp/include \
     $(FANDK)/fost/beanbag/include \
+    $(FANDK)/fost/cord/include \
     $(FANDK)/fost/internet/Cpp/include \
     $(FANDK)/fost/orm/Cpp/include \
     $(FANDK)/fost/threading/include \

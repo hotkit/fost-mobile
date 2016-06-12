@@ -29,6 +29,7 @@ LOCAL_SHARED_LIBRARIES := \
     boost-filesystem \
     boost-system \
     fost-core \
+    fost-crypto \
     fost-inet
 
 include $(BUILD_SHARED_LIBRARY)
