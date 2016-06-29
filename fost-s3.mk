@@ -10,11 +10,11 @@ LOCAL_SRC_FILES := \
     s3.cpp \
     s3authen.cpp
 
-LOCAL_SHARED_LIBRARIES := \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-filesystem \
     boost-system \
     fost-core \
     fost-crypto \
     fost-inet
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

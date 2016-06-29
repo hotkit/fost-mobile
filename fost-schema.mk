@@ -17,8 +17,7 @@ LOCAL_SRC_FILES := \
     models.meta_instance.cpp \
     models.static.cpp
 
-LOCAL_SHARED_LIBRARIES := \
-    boost-system \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     fost-core
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

@@ -8,8 +8,8 @@ LOCAL_MODULE := fost-datetime
 LOCAL_SRC_FILES := \
     timer.cpp
 
-LOCAL_SHARED_LIBRARIES := \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-system \
     fost-core
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

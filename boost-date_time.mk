@@ -12,4 +12,4 @@ LOCAL_SRC_FILES := \
     src/gregorian/gregorian_types.cpp \
     src/posix_time/posix_time_types.cpp
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

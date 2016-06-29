@@ -7,4 +7,4 @@ LOCAL_MODULE := boost-system
 
 LOCAL_SRC_FILES := src/error_code.cpp
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
