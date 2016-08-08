@@ -6,7 +6,8 @@ include $(FANDK)/opts.mk
 LOCAL_MODULE := fost-beanbag
 
 LOCAL_SRC_FILES := \
-    databases.cpp
+    databases.cpp \
+    path.cpp
 
 LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-filesystem \
