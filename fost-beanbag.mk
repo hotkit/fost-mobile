@@ -6,9 +6,10 @@ include $(FANDK)/opts.mk
 LOCAL_MODULE := fost-beanbag
 
 LOCAL_SRC_FILES := \
-    databases.cpp
+    databases.cpp \
+    path.cpp
 
-LOCAL_SHARED_LIBRARIES := \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-filesystem \
     boost-system \
     fost-core \
@@ -17,4 +18,4 @@ LOCAL_SHARED_LIBRARIES := \
     fost-jsondb \
     fost-urlhandler
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

@@ -9,10 +9,7 @@ LOCAL_SRC_FILES := \
     blobdb.cpp \
     jsondb.cpp
 
-LOCAL_SHARED_LIBRARIES := \
-    boost-filesystem \
-    boost-system \
-    fost-core \
-    fost-schema
+LOCAL_WHOLE_STATIC_LIBRARIES := \
+   fost-schema
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

@@ -81,7 +81,7 @@
 	url = git@github.com:boostorg/atomic.git
 [submodule "boost/spirit"]
 	path = boost/spirit
-	url = git@github.com:boostorg/spirit.git
+	url = git@github.com:KayEss/spirit.git
 [submodule "boost/optional"]
 	path = boost/optional
 	url = git@github.com:boostorg/optional.git

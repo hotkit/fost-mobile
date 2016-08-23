@@ -65,4 +65,4 @@ LOCAL_SRC_FILES := \
     trdlocal.cpp
 
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

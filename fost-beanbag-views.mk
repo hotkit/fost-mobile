@@ -16,7 +16,7 @@ LOCAL_SRC_FILES := \
     patch.op-remove.cpp \
     patch.op-set.cpp
 
-LOCAL_SHARED_LIBRARIES := \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-filesystem \
     boost-system \
     fost-beanbag \
@@ -26,4 +26,4 @@ LOCAL_SHARED_LIBRARIES := \
     fost-jsondb \
     fost-urlhandler
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

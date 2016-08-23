@@ -10,9 +10,8 @@ LOCAL_SRC_FILES := \
     hashes.cpp \
     signature.cpp
 
-LOCAL_SHARED_LIBRARIES := \
-    boost-system \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     cryptopp \
     fost-core
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

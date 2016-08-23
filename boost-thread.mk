@@ -10,7 +10,8 @@ LOCAL_SRC_FILES := \
     src/tss_null.cpp \
     src/pthread/once.cpp \
     src/pthread/thread.cpp
-LOCAL_SHARED_LIBRARIES := \
+
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-system
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

@@ -17,7 +17,7 @@ LOCAL_SRC_FILES := \
     url.cpp \
     url-query_string.cpp
 
-LOCAL_SHARED_LIBRARIES := \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-filesystem \
     boost-system \
     boost-thread \
@@ -26,4 +26,4 @@ LOCAL_SHARED_LIBRARIES := \
     fost-crypto \
     ssl-openssl
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

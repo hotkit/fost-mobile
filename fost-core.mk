@@ -43,10 +43,10 @@ LOCAL_SRC_FILES := \
         variant-coerce.cpp \
         yaml.cpp
 
-LOCAL_SHARED_LIBRARIES := \
+LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-date_time \
     boost-filesystem \
     boost-system \
     boost-thread
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
