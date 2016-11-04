@@ -81,7 +81,7 @@
 	url = git@github.com:boostorg/atomic.git
 [submodule "boost/spirit"]
 	path = boost/spirit
-	url = git@github.com:KayEss/spirit.git
+	url = git@github.com:boostorg/spirit.git
 [submodule "boost/optional"]
 	path = boost/optional
 	url = git@github.com:boostorg/optional.git
@@ -120,7 +120,7 @@
 	url = git@github.com:boostorg/tokenizer.git
 [submodule "boost/lambda"]
 	path = boost/lambda
-	url = git@github.com:KayEss/lambda.git
+	url = git@github.com:boostorg/lambda.git
 [submodule "boost/uuid"]
 	path = boost/uuid
 	url = git@github.com:boostorg/uuid.git
