@@ -15,6 +15,7 @@ include $(FANDK)/fost-jsondb.mk
 include $(FANDK)/fost-rproxy.mk
 include $(FANDK)/fost-s3.mk
 include $(FANDK)/fost-schema.mk
+include $(FANDK)/fost-sinks.mk
 include $(FANDK)/fost-urlhandler.mk
 include $(FANDK)/openssl/crypto/Android.mk
 include $(FANDK)/openssl/ssl/Android.mk
