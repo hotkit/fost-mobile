@@ -175,3 +175,6 @@
 [submodule "fost/cord"]
 	path = fost/cord
 	url = git@github.com:KayEss/f5-cord.git
+[submodule "boringssl"]
+	path = boringssl
+	url = https://android.googlesource.com/platform/external/boringssl
