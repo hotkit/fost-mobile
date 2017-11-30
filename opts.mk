@@ -1,6 +1,6 @@
 
 LOCAL_CXXFLAGS += \
-    -DBOOST_VERSION_MAJOR=56 \
+    -DBOOST_VERSION_MAJOR=65 \
     -DFOST_NO_STD_EXCEPTION_PTR \
     -std=c++14 \
     -Wno-deprecated-declarations
