@@ -1,6 +1,6 @@
 
 LOCAL_CXXFLAGS += \
-    -DBOOST_VERSION_MAJOR=56 \
+    -DBOOST_VERSION_MAJOR=65 \
     -DFOST_NO_STD_EXCEPTION_PTR \
     -std=c++14 \
     -Wno-deprecated-declarations
@@ -57,6 +57,7 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/boost/utility/include \
     $(FANDK)/boost/uuid/include \
     $(FANDK)/boost/variant/include \
+    $(FANDK)/boringssl/include \
     $(FANDK)/crypto \
     $(FANDK)/fost/aws/Cpp/include \
     $(FANDK)/fost/base/Cpp/include \
@@ -65,6 +66,5 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/fost/internet/Cpp/include \
     $(FANDK)/fost/orm/Cpp/include \
     $(FANDK)/fost/threading/include \
-    $(FANDK)/fost/web/Cpp/include \
-    $(FANDK)/openssl/include
+    $(FANDK)/fost/web/Cpp/include
 

@@ -21,9 +21,8 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
     boost-filesystem \
     boost-system \
     boost-thread \
-    crypto-openssl \
+    boringssl \
     fost-core \
-    fost-crypto \
-    ssl-openssl
+    fost-crypto
 
 include $(BUILD_STATIC_LIBRARY)
