@@ -24,7 +24,6 @@ LOCAL_SRC_FILES := \
         log-scoped.cpp \
         meter.cpp \
         module.cpp \
-        parsers.cpp \
         pool.cpp \
         progress.cpp \
         setting.cpp \
