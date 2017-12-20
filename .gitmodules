@@ -175,3 +175,18 @@
 [submodule "boringssl"]
 	path = boringssl
 	url = https://android.googlesource.com/platform/external/boringssl
+[submodule "boost/phoenix"]
+	path = boost/phoenix
+	url = git@github.com:boostorg/phoenix.git
+[submodule "boost/proto"]
+	path = boost/proto
+	url = git@github.com:boostorg/proto.git
+[submodule "boost/fusion"]
+	path = boost/fusion
+	url = git@github.com:boostorg/fusion.git
+[submodule "boost/foreach"]
+	path = boost/foreach
+	url = git@github.com:boostorg/foreach.git
+[submodule "boost/function_types"]
+	path = boost/function_types
+	url = git@github.com:boostorg/function_types.git

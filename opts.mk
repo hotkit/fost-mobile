@@ -25,8 +25,11 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/boost/detail/include \
     $(FANDK)/boost/exception/include \
     $(FANDK)/boost/filesystem/include \
+    $(FANDK)/boost/foreach/include \
     $(FANDK)/boost/function/include \
+    $(FANDK)/boost/function_types/include \
     $(FANDK)/boost/functional/include \
+    $(FANDK)/boost/fusion/include \
     $(FANDK)/boost/integer/include \
     $(FANDK)/boost/io/include \
     $(FANDK)/boost/iterator/include \
@@ -37,8 +40,10 @@ LOCAL_C_INCLUDES += \
     $(FANDK)/boost/mpl/include \
     $(FANDK)/boost/numeric_conversion/include \
     $(FANDK)/boost/optional/include \
+    $(FANDK)/boost/phoenix/include \
     $(FANDK)/boost/predef/include \
     $(FANDK)/boost/preprocessor/include \
+    $(FANDK)/boost/proto/include \
     $(FANDK)/boost/random/include \
     $(FANDK)/boost/range/include \
     $(FANDK)/boost/ratio/include \
