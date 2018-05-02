@@ -2,7 +2,7 @@
 
 Android build configuration for NDK with Boost and Fost libraries.
 
-It needs at least r10d and it uses C++14 and the Clang compiler.
+Use the latest NDK and it uses C++14 and the Clang compiler.
 
 ## To use ##
 
@@ -29,3 +29,8 @@ A sample application configuration:
     NDK_TOOLCHAIN_VERSION=clang
     APP_STL := c++_static
     APP_CPPFLAGS += -fexceptions -frtti
+
+# CMake #
+
+
+* Crypto++ will not build for MIPS or early (non-NEON) ARM chips. `arm64-v8a`, `armeabi-v7a`, `x86` and `x86_64` are known to work.
