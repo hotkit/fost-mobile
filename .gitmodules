@@ -139,9 +139,6 @@
 [submodule "boost/regex"]
 	path = boost/regex
 	url = git@github.com:boostorg/regex.git
-[submodule "fost/orm"]
-	path = fost/orm
-	url = git@github.com:KayEss/fost-orm.git
 [submodule "crypto"]
 	path = crypto
 	url = git@github.com:KayEss/fost-crypto.git
