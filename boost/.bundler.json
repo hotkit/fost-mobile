@@ -1,0 +1,6 @@
+{
+    "ignore": {
+        "startswith": [""]
+    },
+    "files": ["boost-version", "CMakeLists.txt"]
+}

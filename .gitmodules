@@ -139,9 +139,6 @@
 [submodule "boost/regex"]
 	path = boost/regex
 	url = git@github.com:boostorg/regex.git
-[submodule "fost/orm"]
-	path = fost/orm
-	url = git@github.com:KayEss/fost-orm.git
 [submodule "crypto"]
 	path = crypto
 	url = git@github.com:KayEss/fost-crypto.git
@@ -172,9 +169,6 @@
 [submodule "fost/cord"]
 	path = fost/cord
 	url = git@github.com:KayEss/f5-cord.git
-[submodule "boringssl"]
-	path = boringssl
-	url = https://android.googlesource.com/platform/external/boringssl
 [submodule "boost/phoenix"]
 	path = boost/phoenix
 	url = git@github.com:boostorg/phoenix.git
@@ -190,3 +184,6 @@
 [submodule "boost/function_types"]
 	path = boost/function_types
 	url = git@github.com:boostorg/function_types.git
+[submodule "boringssl"]
+	path = boringssl
+	url = git@github.com:google/boringssl.git
