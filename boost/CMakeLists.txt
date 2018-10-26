@@ -42,7 +42,6 @@ target_include_directories(boost INTERFACE
         smart_ptr/include
         spirit/include
         static_assert/include
-        thread/include
         throw_exception/include
         tokenizer/include
         tuple/include
