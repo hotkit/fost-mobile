@@ -187,3 +187,6 @@
 [submodule "boringssl"]
 	path = boringssl
 	url = git@github.com:google/boringssl.git
+[submodule "boost/context"]
+	path = boost/context
+	url = git@github.com:boostorg/context.git
