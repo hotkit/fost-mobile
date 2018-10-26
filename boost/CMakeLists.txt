@@ -1,5 +1,4 @@
 add_library(boost INTERFACE)
-
 target_include_directories(boost INTERFACE
         algorithm/include
         align/include
@@ -9,7 +8,6 @@ target_include_directories(boost INTERFACE
         atomic/include
         bind/include
         core/include
-        chrono/include
         concept_check/include
         config/include
         container/include
@@ -53,6 +51,16 @@ target_include_directories(boost INTERFACE
         variant/include
     )
 
+
+add_library(boost_chrono
+        chrono/src/chrono.cpp
+        chrono/src/process_cpu_clocks.cpp
+        chrono/src/thread_clock.cpp
+    )
+target_include_directories(boost_chrono PUBLIC chrono/include)
+target_link_libraries(boost_chrono boost boost_system)
+
+
 add_library(boost_date_time
         date_time/src/gregorian/date_generators.cpp
         date_time/src/gregorian/greg_month.cpp
@@ -63,11 +71,6 @@ add_library(boost_date_time
 target_include_directories(boost_date_time PUBLIC date_time/include)
 target_link_libraries(boost_date_time boost)
 
-add_library(boost_system
-        system/src/error_code.cpp
-    )
-target_include_directories(boost_system PUBLIC system/include)
-target_link_libraries(boost_system boost)
 
 add_library(boost_filesystem
         filesystem/src/codecvt_error_category.cpp
@@ -82,3 +85,9 @@ add_library(boost_filesystem
 target_include_directories(boost_filesystem PUBLIC filesystem/include)
 target_link_libraries(boost_filesystem boost boost_system)
 
+
+add_library(boost_system
+        system/src/error_code.cpp
+    )
+target_include_directories(boost_system PUBLIC system/include)
+target_link_libraries(boost_system boost)
