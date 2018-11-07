@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.6)
+
 add_subdirectory(boringssl)
 string(REPLACE "-std=c++11" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 
