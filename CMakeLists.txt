@@ -7,4 +7,6 @@ add_subdirectory(boost)
 add_subdirectory(crypto)
 add_subdirectory(fost)
 
-target_include_directories(fost-inet PUBLIC boringssl/include)
+# This belongs on fost-inet rather than fost-core, but cmake doesn't
+# allow us to set this up properly
+target_include_directories(fost-core PUBLIC boringssl/include)
