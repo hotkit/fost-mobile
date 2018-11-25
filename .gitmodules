@@ -73,9 +73,6 @@
 [submodule "boost/concept_check"]
 	path = boost/concept_check
 	url = git@github.com:boostorg/concept_check.git
-[submodule "boost/thread"]
-	path = boost/thread
-	url = git@github.com:boostorg/thread.git
 [submodule "boost/atomic"]
 	path = boost/atomic
 	url = git@github.com:boostorg/atomic.git
@@ -139,9 +136,6 @@
 [submodule "boost/regex"]
 	path = boost/regex
 	url = git@github.com:boostorg/regex.git
-[submodule "fost/orm"]
-	path = fost/orm
-	url = git@github.com:KayEss/fost-orm.git
 [submodule "crypto"]
 	path = crypto
 	url = git@github.com:KayEss/fost-crypto.git
@@ -172,6 +166,21 @@
 [submodule "fost/cord"]
 	path = fost/cord
 	url = git@github.com:KayEss/f5-cord.git
+[submodule "boost/phoenix"]
+	path = boost/phoenix
+	url = git@github.com:boostorg/phoenix.git
+[submodule "boost/proto"]
+	path = boost/proto
+	url = git@github.com:boostorg/proto.git
+[submodule "boost/fusion"]
+	path = boost/fusion
+	url = git@github.com:boostorg/fusion.git
+[submodule "boost/foreach"]
+	path = boost/foreach
+	url = git@github.com:boostorg/foreach.git
+[submodule "boost/function_types"]
+	path = boost/function_types
+	url = git@github.com:boostorg/function_types.git
 [submodule "boringssl"]
 	path = boringssl
-	url = https://android.googlesource.com/platform/external/boringssl
+	url = git@github.com:google/boringssl.git
