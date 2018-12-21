@@ -184,3 +184,6 @@
 [submodule "boringssl"]
 	path = boringssl
 	url = git@github.com:google/boringssl.git
+[submodule "fost/json-schema"]
+	path = fost/json-schema
+	url = git@github.com:KayEss/json-schema.git
