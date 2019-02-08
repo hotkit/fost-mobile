@@ -187,3 +187,6 @@
 [submodule "fost/json-schema"]
 	path = fost/json-schema
 	url = git@github.com:KayEss/json-schema.git
+[submodule "mdca-platform"]
+	path = mdca-platform
+	url = git@github.com:wfp/MDCA-Platform.git
