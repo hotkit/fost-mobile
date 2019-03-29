@@ -11,6 +11,7 @@ target_include_directories(boost INTERFACE
         concept_check/include
         config/include
         container/include
+        container_hash/include
         conversion/include
         detail/include
         exception/include

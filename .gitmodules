@@ -190,3 +190,6 @@
 [submodule "mdca-platform"]
 	path = mdca-platform
 	url = git@github.com:wfp/MDCA-Platform.git
+[submodule "boost/container_hash"]
+	path = boost/container_hash
+	url = git@github.com:boostorg/container_hash.git
