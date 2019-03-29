@@ -43,6 +43,7 @@ target_include_directories(boost INTERFACE
         static_assert/include
         throw_exception/include
         tokenizer/include
+        tti/include
         tuple/include
         type_index/include
         type_traits/include

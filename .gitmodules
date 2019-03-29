@@ -193,3 +193,6 @@
 [submodule "boost/container_hash"]
 	path = boost/container_hash
 	url = git@github.com:boostorg/container_hash.git
+[submodule "boost/tti"]
+	path = boost/tti
+	url = git@github.com:boostorg/tti.git
