@@ -61,7 +61,7 @@ add_library(boost_chrono
     )
 target_include_directories(boost_chrono PUBLIC chrono/include)
 target_link_libraries(boost_chrono boost boost_system)
-
+install(TARGETS boost_chrono LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
 
 add_library(boost_date_time
         date_time/src/gregorian/date_generators.cpp
@@ -72,7 +72,7 @@ add_library(boost_date_time
     )
 target_include_directories(boost_date_time PUBLIC date_time/include)
 target_link_libraries(boost_date_time boost)
-
+install(TARGETS boost_date_time LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
 
 add_library(boost_filesystem
         filesystem/src/codecvt_error_category.cpp
@@ -86,10 +86,11 @@ add_library(boost_filesystem
     )
 target_include_directories(boost_filesystem PUBLIC filesystem/include)
 target_link_libraries(boost_filesystem boost boost_system)
-
+install(TARGETS boost_filesystem LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
 
 add_library(boost_system
         system/src/error_code.cpp
     )
 target_include_directories(boost_system PUBLIC system/include)
 target_link_libraries(boost_system boost)
+install(TARGETS boost_system LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
