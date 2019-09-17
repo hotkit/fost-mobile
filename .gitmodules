@@ -15,7 +15,7 @@
 	url = git@github.com:boostorg/exception.git
 [submodule "fost/base"]
 	path = fost/base
-	url = git@github.com:KayEss/fost-base.git
+	url = git@github.com:hotkit/fost-base.git
 [submodule "boost/preprocessor"]
 	path = boost/preprocessor
 	url = git@github.com:boostorg/preprocessor.git
@@ -126,10 +126,10 @@
 	url = git@github.com:boostorg/random.git
 [submodule "fost/web"]
 	path = fost/web
-	url = git@github.com:KayEss/fost-web.git
+	url = git@github.com:hotkit/fost-web.git
 [submodule "fost/internet"]
 	path = fost/internet
-	url = git@github.com:KayEss/fost-internet.git
+	url = git@github.com:hotkit/fost-internet.git
 [submodule "boost/asio"]
 	path = boost/asio
 	url = git@github.com:boostorg/asio.git
@@ -138,13 +138,13 @@
 	url = git@github.com:boostorg/regex.git
 [submodule "crypto"]
 	path = crypto
-	url = git@github.com:KayEss/fost-crypto.git
+	url = git@github.com:hotkit/fost-crypto.git
 [submodule "fost/beanbag"]
 	path = fost/beanbag
-	url = git@github.com:KayEss/fost-beanbag.git
+	url = git@github.com:hotkit/fost-beanbag.git
 [submodule "fost/aws"]
 	path = fost/aws
-	url = git@github.com:KayEss/fost-aws.git
+	url = git@github.com:hotkit/fost-aws.git
 [submodule "boost/throw_exception"]
 	path = boost/throw_exception
 	url = git@github.com:boostorg/throw_exception.git
@@ -159,13 +159,13 @@
 	url = git@github.com:boostorg/system.git
 [submodule "fost/threading"]
 	path = fost/threading
-	url = git@github.com:KayEss/f5-threading.git
+	url = git@github.com:hotkit/f5-threading.git
 [submodule "boost/type_index"]
 	path = boost/type_index
 	url = git@github.com:boostorg/type_index.git
 [submodule "fost/cord"]
 	path = fost/cord
-	url = git@github.com:KayEss/f5-cord.git
+	url = git@github.com:hotkit/f5-cord.git
 [submodule "boost/phoenix"]
 	path = boost/phoenix
 	url = git@github.com:boostorg/phoenix.git
@@ -186,7 +186,7 @@
 	url = git@github.com:google/boringssl.git
 [submodule "fost/json-schema"]
 	path = fost/json-schema
-	url = git@github.com:KayEss/json-schema.git
+	url = git@github.com:hotkit/json-schema.git
 [submodule "mdca-platform"]
 	path = mdca-platform
 	url = git@github.com:wfp/MDCA-Platform.git
