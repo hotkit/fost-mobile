@@ -159,13 +159,13 @@
 	url = git@github.com:boostorg/system.git
 [submodule "fost/threading"]
 	path = fost/threading
-	url = git@github.com:hotkit/f5-threading.git
+	url = git@github.com:hotkit/threading.git
 [submodule "boost/type_index"]
 	path = boost/type_index
 	url = git@github.com:boostorg/type_index.git
 [submodule "fost/cord"]
 	path = fost/cord
-	url = git@github.com:hotkit/f5-cord.git
+	url = git@github.com:hotkit/cord.git
 [submodule "boost/phoenix"]
 	path = boost/phoenix
 	url = git@github.com:boostorg/phoenix.git
