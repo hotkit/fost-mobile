@@ -6,6 +6,9 @@ jobs:
 
     steps:
       - checkout
+      - run:
+          name: submodules
+          command: git submodule update --init --recursive
 
       - run:
           name: install
