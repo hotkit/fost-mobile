@@ -13,9 +13,9 @@ jobs:
 
       - run:
           name: cmake
-          command: cmake ..
+          command: cmake -B build.tmp .
 
       - run:
           name: make
-          command: make
+          command: make -C build.tmp
 
