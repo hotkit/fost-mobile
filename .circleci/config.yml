@@ -13,7 +13,7 @@ jobs:
 
       - run:
           name: submodules
-          command: git submodule update --init --recursive
+          command: sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules && git submodule update --init --recursive
 
       - run:
           name: cmake
