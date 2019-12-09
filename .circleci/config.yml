@@ -9,7 +9,7 @@ jobs:
 
       - run:
           name: install
-          command: apt-get update && apt-get install -y build-essential cmake git libssl-dev
+          command: apt-get update && apt-get install -y build-essential cmake git libssl-dev ninja-build
 
       - run:
           name: submodules
@@ -17,9 +17,8 @@ jobs:
 
       - run:
           name: cmake
-          command: cmake -B build.tmp .
+          command: mkdir build.tmp && cd build.tmp && cmake -G Ninja ..
 
       - run:
           name: make
-          command: make -C build.tmp
-
+          command: ninja -C build.tmp
