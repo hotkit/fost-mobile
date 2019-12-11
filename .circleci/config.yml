@@ -1,0 +1,29 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ubuntu:bionic
+
+    steps:
+      - checkout
+
+      - run:
+          name: install
+          command: apt-get update && apt-get install -y build-essential cmake git libssl-dev
+
+      - run:
+          name: submodules
+          command: |
+            sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+            git submodule update --init --recursive
+
+      - run:
+          name: cmake
+          command: |
+            mkdir build.tmp
+            cd build.tmp
+            cmake ..
+
+      - run:
+          name: make
+          command: make -C build.tmp

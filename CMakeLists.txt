@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
+project(fost-mobile)
+
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 if(NOT ${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
     add_subdirectory(boringssl)

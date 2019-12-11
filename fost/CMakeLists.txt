@@ -8,6 +8,7 @@ add_subdirectory(threading)
 # be using them
 add_subdirectory(aws)
 add_subdirectory(internet/Cpp/fost-inet)
+add_subdirectory(json-schema)
 add_subdirectory(web/Cpp/fost-urlhandler)
 
 # These modules are now optional, include the subdirectories
