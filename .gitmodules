@@ -196,3 +196,6 @@
 [submodule "boost/tti"]
 	path = boost/tti
 	url = git@github.com:boostorg/tti.git
+[submodule "fost/makham"]
+	path = fost/makham
+	url = git@github.com:HotKit/makham.git
