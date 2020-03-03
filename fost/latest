@@ -5,7 +5,7 @@ set -ex
 for MOD in $(ls -d */)
 do
     cd $MOD
-    git checkout develop
-    git pull origin develop
+    git checkout develop || git checkout master
+    git pull
     cd ..
 done
