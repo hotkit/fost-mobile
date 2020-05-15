@@ -1,29 +1,53 @@
-version: 2
+version: 2.1
+
+executors:
+  clang:
+    docker:
+    - image: fost/circleci
+    environment:
+      CC: clang
+      CXX: clang++
+  gcc:
+    docker:
+    - image: fost/circleci
+    environment:
+      CC: gcc-10
+      CXX: g++-10
+
 jobs:
   build:
-    docker:
-      - image: ubuntu:bionic
-
+    parameters:
+      compiler:
+        type: executor
+      variant:
+        type: string
+    executor: << parameters.compiler >>
     steps:
       - checkout
-
-      - run:
-          name: install
-          command: apt-get update && apt-get install -y build-essential cmake git libssl-dev
-
       - run:
           name: submodules
           command: |
-            sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
             git submodule update --init --recursive
-
+      - run:
+          name: install
+          command: apt-get install golang
       - run:
           name: cmake
+          environment:
+            CMAKE_BUILD_TYPE: << parameters.variant >>
           command: |
             mkdir build.tmp
             cd build.tmp
-            cmake ..
-
+            cmake .. -G Ninja
       - run:
-          name: make
-          command: make -C build.tmp
+          name: ninja
+          command: ninja -j1 -C build.tmp
+
+workflows:
+  all-tests:
+    jobs:
+      - build:
+          matrix:
+            parameters:
+              compiler: [gcc, clang]
+              variant: [Debug, Release]
