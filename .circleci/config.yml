@@ -30,7 +30,7 @@ jobs:
             git submodule update --init --recursive
       - run:
           name: install
-          command: apt-get install golang
+          command: apt-get install -y golang
       - run:
           name: cmake
           environment:
